@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/commentAuthor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="username"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="@color/colorAccent"/>
+
+    <TextView
+        android:id="@+id/theComment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="  "
+        android:layout_marginLeft="10dp"
+        android:layout_below="@+id/commentAuthor"
+        android:textSize="14sp"
+        android:textColor="#fff"
+        />
+
+</RelativeLayout>

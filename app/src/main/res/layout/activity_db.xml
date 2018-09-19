@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="8dp"
+    android:id="@+id/linearDB">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+
+        <RelativeLayout
+
+            android:id="@+id/relativeDB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/posterDB"
+                android:layout_width="80dp"
+                android:layout_height="115dp"
+                android:paddingTop="1px"
+                android:paddingBottom="1px"
+                android:background="#ffff"
+                android:transitionName="imageTrans"
+                />
+
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginTop="70dp"
+                android:src="@drawable/ic_action_background"
+                />
+
+            <ImageView
+                android:id="@+id/watcedListDB"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="74dp"
+                android:layout_marginLeft="8dp"
+                android:clickable="true"
+                />
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+
+</LinearLayout>
