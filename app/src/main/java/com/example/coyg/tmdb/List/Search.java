@@ -83,7 +83,7 @@ public class Search extends Fragment
             {
                 clear ();
 
-                temp = "https://api.themoviedb.org/3/search/movie?api_key=6c20bdc9fb3e86590c16b5f77d4754c7&language=en-US&query="
+                temp = "https://api.themoviedb.org/3/search/movie?api_key="+"your api key"+"&language=en-US&query="
                         +currentQuery+"&page=1&include_adult=false";
 
                 temp = temp.replaceAll(" ", "%20");

@@ -37,7 +37,7 @@ public class UpComing extends Fragment
     private int  totalItemCount,visibleItemCount,pastVisiblesItems;
     private GridLayoutManager gridLayoutManager;
 
-    private static final String URL_DATA = "https://api.themoviedb.org/3/movie/upcoming?api_key=6c20bdc9fb3e86590c16b5f77d4754c7&language=en-US&page=";
+    private static final String URL_DATA = "https://api.themoviedb.org/3/movie/upcoming?api_key="+"your api key"+"&language=en-US&page=";
 
     private RecyclerView recyclerviewUp;
     public RecyclerView.Adapter adapterUp;

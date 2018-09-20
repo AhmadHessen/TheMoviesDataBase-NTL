@@ -46,7 +46,8 @@
                 <data android:scheme="@string/fb_login_protocol_scheme"/>
             </intent-filter>
         </activity>
-        <activity android:name=".favlist.FavList">
+        <activity android:name=".favlist.FavList"
+                  android:label="Watched List">
         </activity>
     </application>
 

@@ -116,10 +116,10 @@ public class DetailsMain extends YouTubeBaseActivity implements YouTubePlayer.On
 
         final String ID = data.getString ("id");
         URL_deatailsDATA= "https://api.themoviedb.org/3/movie/"+ID
-                +"?api_key=6c20bdc9fb3e86590c16b5f77d4754c7&append_to_response=credits,videos";
+                +"?api_key="+"your api key"+"&append_to_response=credits,videos";
 
         URL_reviewsDATA= "https://api.themoviedb.org/3/movie/"
-                +ID+"/reviews?api_key=6c20bdc9fb3e86590c16b5f77d4754c7&language=en-US&page=1";
+                +ID+"/reviews?api_key="+"your api key"+"&language=en-US&page=1";
 
 
         loadData();

@@ -38,7 +38,7 @@ public class TopRated extends Fragment
     private int  totalItemCount,visibleItemCount,pastVisiblesItems;
     private GridLayoutManager gridLayoutManager;
 
-    private static final String URL_DATA = "https://api.themoviedb.org/3/movie/top_rated?api_key=6c20bdc9fb3e86590c16b5f77d4754c7&page=";
+    private static final String URL_DATA = "https://api.themoviedb.org/3/movie/top_rated?api_key="+"your api key"+"&page=";
 
     private RecyclerView recyclerviewTop;
     public RecyclerView.Adapter adapterTop;

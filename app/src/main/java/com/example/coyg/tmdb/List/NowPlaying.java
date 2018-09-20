@@ -37,7 +37,7 @@ public class NowPlaying extends Fragment
     private int  totalItemCount,visibleItemCount,pastVisiblesItems;
     private GridLayoutManager gridLayoutManager;
 
-    private static final String URL_DATA = "https://api.themoviedb.org/3/movie/now_playing?api_key=6c20bdc9fb3e86590c16b5f77d4754c7&page=";
+    private static final String URL_DATA = "https://api.themoviedb.org/3/movie/now_playing?api_key="+"your api key"+"&page=";
 
     private RecyclerView recyclerviewNow;
     public RecyclerView.Adapter adapterNow;
